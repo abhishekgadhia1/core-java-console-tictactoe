@@ -1,3 +1,5 @@
+//tictactoe game
+
 package tictactoe;
 
 import java.util.ArrayList;
@@ -23,6 +25,7 @@ public class game
 		System.out.println("Enter your placement (1-9):");
 		int playerPos = scan.nextInt();
 		//System.out.println(pos);
+		
 		
 		while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPos))
 		{
