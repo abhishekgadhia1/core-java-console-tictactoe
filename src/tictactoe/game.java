@@ -1,6 +1,7 @@
 //tictactoe game
 //game for testing
 //only console project
+//first project
 
 package tictactoe;
 
